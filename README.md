@@ -5,9 +5,14 @@ Aplicativo desenvolvido com o propósito de **conectar** idosos e seus responsá
 
 Alunos responsáveis, formando o Grupo 11:
 Danilo Camilo Paraíso
+
 Fabiana Fontoura Candido
+
 Gabriel de Oliveira Pinto
+
 Simone Yokomizo de Lemos
+
 Tais Cristina Gehlen
+
 
 Link para acesso ao Figma: https://www.figma.com/design/MlSF8FvskwMbniLJQYsY4e/Figma-do-PI?node-id=0-1&p=f&t=NcwVnzkUUSM1k2Bq-0
