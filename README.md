@@ -4,6 +4,7 @@ Aplicativo desenvolvido com o propósito de **conectar** idosos e seus responsá
 >Esse projeto foi criado para a disciplina Projeto Integrador: Análise de Soluções Integradas para Organizações, da faculdade Senac São Paulo, no curso de Tecnologia em Análise e Desenvolvimento de Sistemas sob supervisão do professor Gustavo Moreira Calixto e da monitora Ruth Del Raso Garcia.
 
 Alunos responsáveis, formando o Grupo 11:
+
 Danilo Camilo Paraíso
 
 Fabiana Fontoura Candido
