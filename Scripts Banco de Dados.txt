@@ -1,0 +1,41 @@
+﻿Scripts Banco de Dados                
+Os arquivos php BD e editar_perfil também apresentam informações sobre o banco de dados.
+
+
+
+                  
+
+
+  
+
+
+
+/*Seleção do banco de dados*/
+USE DATABASE `gdsob982_cc`;
+
+
+/*Criação da tabela de usuários*/
+CREATE TABLE `users` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nome` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
+  `cpf` varchar(11) COLLATE utf8_unicode_ci NOT NULL,
+  `email` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
+  `endereco` varchar(250) COLLATE utf8_unicode_ci NOT NULL,
+  `telefone` varchar(11) COLLATE utf8_unicode_ci NOT NULL,
+  `servico` varchar(500) COLLATE utf8_unicode_ci NOT NULL,
+  `obs` varchar(500) COLLATE utf8_unicode_ci NOT NULL,
+  `datainc` date NOT NULL,
+  `datalogin` date NOT NULL,
+  `hashlink` varchar(500) COLLATE utf8_unicode_ci NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `cpf` (`cpf`)
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+
+/*Carga de dados na tabela*/
+INSERT INTO gdsob982_cc.users (nome,cpf,email,endereco,telefone,servico,obs,datainc,datalogin,hashlink) VALUES
+         ('Marcio Smith','02775340546','smith@tismith.com.br','Avenida das Araucárias, 697','11981674308','Cuidador / acompanhante','Cuidador de idosos. Auxilio na higienização, alimentação, troca de roupas, atividades cotidianas, acompanhamento em consultas médicas.','2024-08-14','2024-09-02',''),
+         ('tata','18200854060','teste@gmail.com','Av Brasil, 600','11997485216','Técnica de enfermagem','Profissional técnica de enfermagem, capacitada para oferecer o suporte e a atenção que o seu familiar necessita!','2024-08-15','2024-09-02',''),
+         ('Robert Plant','31472945018','rplant@fake.com.br','Rua da Escada do Céu, 58','51983569887','Terapeuta Ocupacional','Profissional habilitado em Terapia Ocupacional. Plano de trabalho individualizado.','2024-09-02','2024-09-02',''),
+         ('Gabriel','04626220100','gabrielsnaker@gmail.com','Rua Tristão 212','11924130139','Fazer compras','Estou disponível quarta e quinta!','2024-09-03','2024-09-03',''),
+         ('João Martins','20347203000','joaomartins@rh.com.br','Rua Sete de Setembro','11 3625-309','Técnico de enfermagem','Fisioterapeuta.','2024-09-04','2024-09-04','');
