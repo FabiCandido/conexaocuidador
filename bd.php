@@ -1,8 +1,9 @@
 <?php
-$servername = "162.241.61.25";
-$username = "gdsob982_cc";
-$password = "gdsob982_cc";
-$dbname = "gdsob982_cc";
+//as credenciais abaixo são placeholders
+$servername = "host-server";
+$username = "user";
+$password = "senha";
+$dbname = "db";
 
 try {
     // Criando a conexão com o banco de dados usando PDO
