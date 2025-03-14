@@ -19,3 +19,18 @@ Tais Cristina Gehlen
 Link para acesso ao Figma: https://www.figma.com/design/MlSF8FvskwMbniLJQYsY4e/Figma-do-PI?node-id=0-1&p=f&t=NcwVnzkUUSM1k2Bq-0
 
 Link para acesso aos scripts de banco de dados: https://github.com/FabiCandido/conexaocuidador/blob/79d741be29fded143ccfa84c979f7dfcf3aa72c5/Scripts%20Banco%20de%20Dados.txt
+
+Fontes utilizadas:
+
+BATISTA, ÉRICLES. Tutorial Completo de Como Usar o Figma. Designerd, 2022.
+Disponível em: <https://www.designerd.com.br/tutorial-como-usar-o-figma/> Acesso
+em: 20 fev. 2024.
+
+CASTRO, Gabriela. Interface de aplicativos: diferenças entre iOS e Android.
+Softdesign, 2021. Disponível em: <https://softdesign.com.br/blog/interfaces-
+diferencas-entre-ios-e-android/#h-o-que-e-a-interface-de-um-aplicativo> Acesso em:
+25 fev. 2025.
+
+SILVESTRINI, Gabriel. Tutorial Completo de FIGMA - Ferramenta GRÁTIS para
+Design de Interfaces. 2020. Disponível em: <https://www.youtube.com/watch?v=vg-
+INqhKD5c> Acesso em: 25 fev. 2025.
