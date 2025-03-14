@@ -24,7 +24,7 @@ Fontes utilizadas:
 
 BATISTA, ÉRICLES. Tutorial Completo de Como Usar o Figma. Designerd, 2022.
 Disponível em: <https://www.designerd.com.br/tutorial-como-usar-o-figma/> Acesso
-em: 20 fev. 2024.
+em: 20 fev. 2025.
 
 CASTRO, Gabriela. Interface de aplicativos: diferenças entre iOS e Android.
 Softdesign, 2021. Disponível em: <https://softdesign.com.br/blog/interfaces-
