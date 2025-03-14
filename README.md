@@ -27,10 +27,8 @@ Disponível em: <https://www.designerd.com.br/tutorial-como-usar-o-figma/> Acess
 em: 20 fev. 2025.
 
 CASTRO, Gabriela. Interface de aplicativos: diferenças entre iOS e Android.
-Softdesign, 2021. Disponível em: <https://softdesign.com.br/blog/interfaces-
-diferencas-entre-ios-e-android/#h-o-que-e-a-interface-de-um-aplicativo> Acesso em:
+Softdesign, 2021. Disponível em: <https://softdesign.com.br/blog/interfaces-diferencas-entre-ios-e-android/#h-o-que-e-a-interface-de-um-aplicativo> Acesso em:
 25 fev. 2025.
 
 SILVESTRINI, Gabriel. Tutorial Completo de FIGMA - Ferramenta GRÁTIS para
-Design de Interfaces. 2020. Disponível em: <https://www.youtube.com/watch?v=vg-
-INqhKD5c> Acesso em: 25 fev. 2025.
+Design de Interfaces. 2020. Disponível em: <https://www.youtube.com/watch?v=vg-INqhKD5c> Acesso em: 25 fev. 2025.
