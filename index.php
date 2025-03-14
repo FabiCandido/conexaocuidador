@@ -13,14 +13,14 @@
             color: #1e3f5a;
             height: 100vh;
             position: relative;
-            background-image: url('old.jpg'); 
+            background-image: url('old.jpg'); /* Substitua pelo caminho da sua imagem */
             background-size: cover; /* Cobre toda a tela */
             background-position: center; /* Centraliza a imagem */
-            background-repeat: no-repeat; 
+            background-repeat: no-repeat; /* Evita repetição da imagem */
         }
 
         .container {
-            background-color: rgba(255, 255, 255, 0.8);
+            background-color: rgba(255, 255, 255, 0.8); /* Fundo branco semitransparente */
             background-color: #ffffff;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -105,15 +105,25 @@
             <tr>
                 <th>Cuidadores</th>
             </tr>
+            <?php
+         
+            require 'bd.php';
 
-            <tr>
-                <td><a href=''> Sérgio Silva </a></td>
-            </tr>
+            try {
+                $stmt = $conn->prepare("SELECT id, nome, cpf, email, endereco, telefone, servico, datainc FROM users order by nome");
+                $stmt->execute();
 
-            <tr>
-                <td><a href=''> Ana Lúcia </a></td>
-            </tr>
-            
+                while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
+                    echo "<tr>";
+                    echo "<td><a href='detalhes_cadastro.php?id=" . $row['id'] . "'>" . htmlspecialchars($row['nome']) . "</a></td>";
+                    echo "</tr>";
+                }
+            } catch (PDOException $e) {
+                echo "<tr><td colspan='7'>Erro ao buscar cadastros: " . $e->getMessage() . "</td></tr>";
+            }
+
+            $conn = null;
+            ?>
         </table>
     </div>
 
